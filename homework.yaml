@@ -1,0 +1,42 @@
+- name: netology-ml
+  hosts: all
+  become: yes
+  
+  vars:
+    packages:
+      - net-tools
+      - git
+      - tree
+      - htop
+      - mc
+      - vim
+    users:
+      - devops_1
+      - test_1
+
+  tasks:
+  - name: Ping
+    ping:
+
+  - name: Apt update
+    apt:
+      update_cache: yes
+
+  - name: Inastall packages
+    apt:
+      name: "{{ packages }}"
+      state: latest
+
+  - name: Copy file
+    copy:
+      src: ./test.txt
+      dest: /tmp
+
+  - name: Create users
+    user:
+      name: "{{ item }}"
+      state: present
+    with_items:
+      - "{{ users }}"
+
+
