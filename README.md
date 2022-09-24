@@ -12,3 +12,8 @@
     5. You can leverage HashiCorp Vault to securely inject secrets into k8s Secret objects.  
     6. There are two types of k8s nodes: masters (control planes) & workers. Masters are used to manage the cluster. Workers host the pods (workload).  
 2. [tomcat.yaml](tomcat.yaml)  
+## ansible  
+- [homework.yaml](homework.yaml)  
+- [inventory](inventory)  
+- [test.txt](test.txt)  
+- [ansible_screenshot.png](ansible_screenshot.png)  
