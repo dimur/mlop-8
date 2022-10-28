@@ -22,3 +22,13 @@
 - [gitlab-ci.yml](gitlab-ci.yml)  
 - [gitlab-ci_screenshot1.png](gitlab-ci_screenshot1.png)  
 - [gitlab-ci_screenshot2.png](gitlab-ci_screenshot2.png)  
+
+## monitoring  
+- [prometheus_alerts.png](prometheus_alerts.png)  
+- [prometheus_rules_1.png](prometheus_rules_1.png)  
+- [prometheus_rules_2.png](prometheus_rules_2.png)  
+- [grafana_datasources.png](grafana_datasources.png)  
+- [grafana_dashboards.png](grafana_dashboards.png)  
+- [grafana_dashboard.png](grafana_dashboard.png)  
+- [grafana_dashboard.json](grafana_dashboard.json)  
+- [grafana_dashboard_metrics.png](grafana_dashboard_metrics.png)  
