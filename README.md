@@ -17,3 +17,8 @@
 - [inventory](inventory)  
 - [test.txt](test.txt)  
 - [ansible_screenshot.png](ansible_screenshot.png)  
+
+## gitlab-ci  
+- [gitlab-ci.yml](gitlab-ci.yml)  
+- [gitlab-ci_screenshot1.png](gitlab-ci_screenshot1.png)  
+- [gitlab-ci_screenshot2.png](gitlab-ci_screenshot2.png)  

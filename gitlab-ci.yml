@@ -1,0 +1,38 @@
+variables:
+    DIR_NAME: "build"
+    FILE_NAME: "info.txt"
+    FILE_FULL_NAME: "./$DIR_NAME/$FILE_NAME"
+stages:
+  - cleanup  
+  - build
+  - test
+cache:
+  paths:
+    - ./
+
+cleanup:
+  stage: cleanup
+  tags: 
+    - netology
+    - host
+  script:
+    - rm -rf ./*
+
+build:
+  stage: build
+  tags: 
+    - netology
+    - host
+  script:
+    - echo "Building"
+    - mkdir $DIR_NAME
+    - touch $FILE_FULL_NAME
+
+test:
+  stage: test
+  tags: 
+    - netology
+    - host
+  script:
+    - echo "Testing"
+    - test -f $FILE_FULL_NAME && echo "File exists" || echo "File doesn't exist"
