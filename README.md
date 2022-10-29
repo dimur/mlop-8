@@ -32,3 +32,10 @@
 - [grafana_dashboard.png](grafana_dashboard.png)  
 - [grafana_dashboard.json](grafana_dashboard.json)  
 - [grafana_dashboard_metrics.png](grafana_dashboard_metrics.png)  
+
+## mlflow
+- [mlflow_install.png](mlflow_install.png) 
+- [mlflow_s3.png](mlflow_s3.png) 
+- [mlflow_experiment.png](mlflow_experiment.png) 
+- [mlflow_serve.png](inmlflow_serve.pngventory) 
+- [mlflow_check.png](invmlflow_check.pngentory) 
