@@ -37,5 +37,5 @@
 - [mlflow_install.png](mlflow_install.png) 
 - [mlflow_s3.png](mlflow_s3.png) 
 - [mlflow_experiment.png](mlflow_experiment.png) 
-- [mlflow_serve.png](mlflow_serve.pngventory) 
-- [mlflow_check.png](mlflow_check.pngentory) 
+- [mlflow_serve.png](mlflow_serve.png) 
+- [mlflow_check.png](mlflow_check.png) 
